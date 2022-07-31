@@ -1,0 +1,16 @@
+body{
+    background: rgb(75, 9, 180);
+    font-family: cursive;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 5px;
+    padding: 25rem;
+    margin: 20rem;
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+}
