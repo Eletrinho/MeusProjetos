@@ -10,12 +10,28 @@
 <body>
     <h1>Calculadora</h1>
     <section>
-        <div>
-
+        <div id="res">
+            <p id="res"></p>
         </div>
-        <div>
-            
+        <div id="botoes">
+            <p><button class="numeros" id="num7" onclick="adicionar('7')">7</button>
+            <button class="numeros" id="num8" onclick="adicionar('8')">8</button>
+            <button class="numeros" id="num9" onclick="adicionar('9')">9</button>
+            <button onclick="apagar()">C</button></p>
+            <p><button class="numeros" id="num4" onclick="adicionar('4')">4</button>
+            <button class="numeros" id="num6" onclick="adicionar('5')">5</button>
+            <button class="numeros" id="num5" onclick="adicionar('6')">6</button>
+            <button onclick="adicionar('-')">-</button></p>
+            <p><button class="numeros" id="num1" onclick="adicionar('1')">1</button>
+            <button class="numeros" id="num2" onclick="adicionar('2')">2</button>
+            <button class="numeros" id="num3" onclick="adicionar('3')">3</button>
+            <button onclick="adicionar('*')">x</button></p>
+            <p><button onclick="adicionar('+')">+</button>
+            <button class="numeros" id="num0" onclick="adicionar('0')">0</button>
+            <button onclick="igual()">=</button>
+            <button onclick="adicionar('/')">:</button></p>
         </div>
     </section>
 </body>
+<script src="script.js"></script>
 </html>
