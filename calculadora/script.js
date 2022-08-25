@@ -7,6 +7,10 @@ function adicionar(n){
 function igual(){
     res.innerHTML = eval(res.innerHTML)      
 }
-function apagar(){
+function apagarTudo(){
     res.innerHTML = ''
+}
+function apagar(){
+    const text = res.innerHTML
+    res.innerHTML = text.slice(0, (text.length - 1))
 }
