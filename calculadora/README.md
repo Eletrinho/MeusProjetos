@@ -1,1 +1,2 @@
-## ainda não está pronto
+# Meu primeiro projeto
+## é só uma calculadora básica
